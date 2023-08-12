@@ -1,0 +1,189 @@
+.main-all {
+  width: 100%;
+  height: auto;
+}
+
+.main-content {
+  width: 100%;
+  height: auto;
+}
+
+.menu-content {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1.6rem;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 5.6rem;
+  padding: 1.6rem;
+}
+
+.menu-fulano {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.menu-name {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.menu-email {
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.menu-links {
+  display: none;
+}
+
+/* ==========CABECALHO========== */
+
+.cabecalho {
+  width: 100%;
+  height: auto;
+  padding: 1.6rem;
+}
+
+.imagem-perfil {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+
+  margin-bottom: 1.6rem;
+}
+
+.cabecalho-apresentacao {
+  width: 100%;
+  height: auto;
+}
+
+.cabecalho-texto {
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 2.5rem;
+
+  margin-bottom: 1.6rem;
+}
+
+.cabecalho-breve-descricao {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.6rem;
+
+  margin-bottom: 1.6rem;
+}
+
+.link a {
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6rem;
+  text-decoration: none;
+  color: #464646;
+}
+
+@media screen and (min-width: 768px) {
+  .menu-name {
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+  }
+
+  .menu-email {
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+  }
+
+  /* ========== CABECALHO ========== */
+
+  .cabecalho {
+    display: flex;
+    gap: 3.2rem;
+
+    padding: 3.2rem;
+  }
+
+  .imagem-perfil {
+    width: 15rem;
+    height: 15rem;
+    order: 1;
+  }
+
+  .cabecalho-apresentacao {
+    width: 52.4rem;
+    height: auto;
+  }
+
+  .cabecalho-texto {
+    font-size: 2.2rem;
+    line-height: 2.5rem;
+  }
+
+  .cabecalho-breve-descricao {
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+  }
+
+  .link a {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+
+    margin-right: 4rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .menu-secao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .menu-links {
+    display: flex;
+    justify-content: space-around;
+    gap: 3.2rem;
+    order: -1;
+
+    margin-right: 3.2rem;
+  }
+
+  .menu-links a {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    text-decoration: none;
+
+    color: #464646;
+  }
+
+  /* ========== CABECALHO ========== */
+
+  .cabecalho {
+    display: flex;
+
+  }
+
+  .imagem-perfil {
+    width: 37rem;
+    height: 37rem;
+  }
+
+  .cabecalho-texto {
+    font-size: 5.2rem;
+    line-height: 4.5rem;
+  }
+
+  .cabecalho-breve-descricao {
+    font-size: 2.2rem;
+    line-height: 2.8rem;
+
+    margin-bottom: 2.4rem;
+  }
+}

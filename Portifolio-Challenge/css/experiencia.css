@@ -1,0 +1,136 @@
+.experiencia {
+  width: 100%;
+  height: auto;
+  padding: 3.2rem;
+}
+
+.experiencia-titulo {
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 2.5rem;
+  text-align: center;
+
+  margin: 3.2rem 0 1.6rem 0;
+}
+
+.experiencia-content {
+  margin-bottom: 6.4rem;
+}
+
+.experiencia-imagem {
+  width: 100%;
+  height: 14.4rem;
+}
+
+.experiencia-nome {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.8rem;
+
+  margin-bottom: 0.8rem;
+}
+
+.experiencia-text {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.6rem;
+
+  margin-bottom: 0.8rem;
+}
+
+.botao {
+  width: 10rem;
+  height: 4rem;
+  border: 1px solid #2A7AE4;
+
+  transition: 500ms;
+}
+
+.botao:hover {
+   transform: scale(1.1);
+}
+
+.botao-demo {
+  width: 10rem;
+  height: 4rem;
+  background-color: #2A7AE4;
+
+  transition: 500ms;
+}
+
+.botao-demo:hover {
+  transform: scale(1.1);
+}
+
+.repositorio, .demo {
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.6rem;
+}
+
+.repositorio {
+  color: #2A7AE4;
+}
+
+.demo {
+  color: white;
+}
+
+@media screen and (min-width: 768px) {
+  .experiencia-content {
+    width: 100%;
+    margin-bottom: 6.4rem;
+  }
+
+  .experiencia-imagem {
+    height: 32rem;
+    margin-bottom: 1.6rem;
+  }
+
+  .experiencia-nome, .experiencia-text {
+    margin-bottom: 0.8rem;
+  }
+
+  .botao {
+    margin-right: 1.6rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .experiencia {
+    padding: 8.2rem;
+  }
+
+  .experiencia-titulo {
+    font-size: 3.2rem;
+    line-height: 3.8rem;
+
+    margin-bottom: 3.2rem;
+  }
+
+  .experiencia-content {
+    display: flex;
+    align-items: center;
+  }
+
+  .experiencia-imagem {
+    width: 60%;
+    margin-right: 2.6rem;
+  }
+
+  .experiencia-nome {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+
+  .experiencia-text {
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+  }
+
+  .botao, .botao-demo {
+    width: 11.6rem;
+    height: 5rem;
+  }
+}
